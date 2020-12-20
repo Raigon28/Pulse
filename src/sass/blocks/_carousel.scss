@@ -14,10 +14,11 @@
         position: relative;
     }
 
-    // .slick-track{
-    //     display: flex;
-    //     justify-content: space-between;
-    // }
+    .slick-track{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
     .slick-arrow{
         position: absolute;
@@ -31,13 +32,13 @@
 
     .slick-arrow.slick-prev{
         background: url('../icons/left.svg') 0 0 / 100% no-repeat;
-        top: calc(50% - 15.5px);
+        top: calc(50% - 25px);
         left: -66px;
     }
 
     .slick-arrow.slick-next{
         background: url('../icons/right.svg') 0 0 / 100% no-repeat;
-        top: calc(50% - 15.5px);
+        top: calc(50% - 25px);
         right: -66px;
     }
 }
