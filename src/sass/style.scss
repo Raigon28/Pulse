@@ -1,5 +1,9 @@
-@import 'base/_variables.scss';
-@import 'base/_mixins.scss';
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import 'libs/slick';
+
+@import 'base/variables';
+@import 'base/mixins';
 
 * {
 	font-family: 'Museo Sans Cyrl', sans-serif;
